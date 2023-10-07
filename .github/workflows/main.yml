@@ -49,6 +49,6 @@ jobs:
           file: src/Dockerfile
           push: true
           tags: |
-            aguiargc/aula-conversao-temperatura:v1
+            aguiargc/aula-conversao-temperatura:${{github.run_number}}
             aguiargc/aula-conversao-temperatura:latest
           
